@@ -1,0 +1,44 @@
+# Compiled files
+*.py[co]
+*.a
+*.o
+*.so
+
+# Sphinx
+_build
+doc/source/contributor/api/
+doc/source/_static/*.sample
+
+# release notes build
+releasenotes/build
+
+# Packages/installer info
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+var
+sdist
+develop-eggs
+.installed.cfg
+.eggs/
+
+# Other
+*.DS_Store
+.idea
+.stestr
+.testrepository
+.tox
+.venv
+.*.swp
+.coverage
+cover
+AUTHORS
+ChangeLog
+*.sqlite
+*~
+
+# Vagrant
+.vagrant
